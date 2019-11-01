@@ -1,1 +1,14 @@
 #VRML V2.0 utf8
+
+Shape {
+  geometry Box {
+    size 1 1 1
+  }
+  appearance Appearance {
+    material Material {
+      diffuseColor 1 1 1
+      shininess 1
+      emissiveColor 0 1 0
+    }
+  }
+}
