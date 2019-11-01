@@ -1,8 +1,17 @@
 <div align=center>
   <h1>Telescópio Hubble em VRML</h1>
-  <small>Trabalho para a disciplina de Computação Gráfica</small>
 
-  <p>Autores: Isabelle Guimarães & Luiz Vitor Monteiro</p>
+  <p>Trabalho para a disciplina de Computação Gráfica</p>
 
-  <img src="https://img.shields.io/badge/LANG-VRML-red?style=for-the-badge">
+  <p><strong>Autores: Isabelle Guimarães & Luiz Vitor Monteiro</strong></p>
+
+  <img src="https://img.shields.io/badge/LANG-VRML-b6000f?style=for-the-badge&labelColor=212121">
 </div>
+
+## Detalhes
+
+`> por fazer`
+
+## Licença
+
+Esse repositório está sob a Licença MIT. Confira o arquivo [LICENSE](./LICENSE).
