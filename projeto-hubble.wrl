@@ -1,14 +1,89 @@
 #VRML V2.0 utf8
 
+#Cilindro base1
+
+Transform {
+  translation 0 0 0
+   rotation 0 0 1 1.56
+  children [
 Shape {
-  geometry Box {
-    size 1 1 1
-  }
-  appearance Appearance {
-    material Material {
-      diffuseColor 1 1 1
-      shininess 1
-      emissiveColor 0 1 0
-    }
-  }
+	geometry Cylinder {
+		radius 1
+		height 5
+
+}
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.9 0.9 0.9
+		shininess 1
+		}
+	}
+}
+]
+}
+
+#Cilindro base2
+
+Transform {
+  translation 2.1 0 0
+   rotation 0 0 1 1.56
+  children [
+Shape {
+	geometry Cylinder {
+		radius 1.1
+		height 0.8
+
+}
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.9 0.9 0.9
+		shininess 1
+		}
+	}
+}
+]
+}
+
+#Cilindro base3
+
+Transform {
+  translation 3.1 0 0
+   rotation 0 0 1 1.56
+  children [
+Shape {
+	geometry Cylinder {
+		radius 1.2
+		height 1.7
+
+}
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.9 0.9 0.9
+		shininess 1
+		}
+	}
+}
+]
+}
+
+#Braço
+
+Transform {
+  translation 0 0.5 0
+   rotation 0 0 0 0
+  children [
+Shape {
+	geometry Cylinder {
+		radius 0.03
+		height 6
+
+}
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.9 0.9 0.9
+		shininess 1
+		}
+	}
+}
+]
 }
