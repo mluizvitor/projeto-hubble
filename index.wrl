@@ -22,11 +22,11 @@ Inline {
 }
 
 Inline {
-  url "parts/hubble_tampa.wrl"
+  url "parts/hubble_bracos.wrl"
 }
 
 Inline {
-  url "parts/hubble_bracos.wrl"
+  url "parts/hubble_tampa.wrl"
 }
 
 Inline {
