@@ -30,9 +30,5 @@ Inline {
 }
 
 Inline {
-  url "parts/hubble_aros.wrl"
-}
-
-Inline {
   url "parts/hubble_antenas.wrl"
 }
