@@ -8,7 +8,7 @@ Transform {
     Shape {
       geometry Cylinder {
         radius 0.05
-        height 5
+        height 6.25
       }
       appearance Appearance {
         material Material {
@@ -32,7 +32,7 @@ Transform {
       children [
         Shape {
           geometry Box {
-            size 2.5 1.75 0.1
+            size 2.5 1.75 0.2
           }
           appearance Appearance {
             material Material {
@@ -53,7 +53,7 @@ Transform {
       children [
         Shape {
           geometry Box {
-            size 2.5 1.75 0.1
+            size 2.5 1.75 0.2
           }
           appearance Appearance {
             material Material {
@@ -67,6 +67,45 @@ Transform {
         }
       ]
     }
+
+    # hastes que prendem os espelhos 1 no braço
+    Transform {
+      translation 0 0.8 0
+      rotation 0 0 1 1.57
+      children [
+        Shape {
+          geometry Cylinder {
+            radius 0.025
+            height 5.25
+          }
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.2 0.2 0.2
+              shininess 1
+            }
+          }
+        }
+      ]
+    }
+
+    Transform {
+      translation 0 -0.8 0
+      rotation 0 0 1 1.57
+      children [
+        Shape {
+          geometry Cylinder {
+            radius 0.025
+            height 5.25
+          }
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.2 0.2 0.2
+              shininess 1
+            }
+          }
+        }
+      ]
+    }
   ]
 }
 
@@ -75,13 +114,14 @@ Transform {
   translation 0.5 -2.25 0
   rotation 0 1 0 -0.348
   children [
+
     # placa 3
     Transform {
       translation -1.275 0 0
       children [
         Shape {
           geometry Box {
-            size 2.5 1.75 0.1
+            size 2.5 1.75 0.2
           }
           appearance Appearance {
             material Material {
@@ -102,7 +142,7 @@ Transform {
       children [
         Shape {
           geometry Box {
-            size 2.5 1.75 0.1
+            size 2.5 1.75 0.2
           }
           appearance Appearance {
             material Material {
@@ -116,26 +156,44 @@ Transform {
         }
       ]
     }
-  ]
-}
 
-
-#Antena
-Transform {
-  translation 0.35 0 0
-  rotation 1 0 0 1.57
-  children [
-    Shape {
-      geometry Cylinder {
-        radius 0.05
-        height 5
-      }
-      appearance Appearance {
-        material Material {
-          diffuseColor 0.2 0.2 0.2
-          shininess 1
+    # hastes que prendem os espelhos 2 no braço
+    Transform {
+      translation 0 0.8 0
+      rotation 0 0 1 1.57
+      children [
+        Shape {
+          geometry Cylinder {
+            radius 0.025
+            height 5.25
+          }
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.2 0.2 0.2
+              shininess 1
+            }
+          }
         }
-      }
+      ]
+    }
+
+    Transform {
+      translation 0 -0.8 0
+      rotation 0 0 1 1.57
+      children [
+        Shape {
+          geometry Cylinder {
+            radius 0.025
+            height 5.25
+          }
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.2 0.2 0.2
+              shininess 1
+            }
+          }
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,96 @@
+#VRML V2.0 utf8
+
+#Cilindro base1
+Transform {
+  translation -0.5 0 0
+  rotation 0 0 1 1.56
+  children [
+    Shape {
+      geometry Cylinder {
+        radius 1
+        height 6
+      }
+
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.7 0.7 0.7
+          shininess 1
+          emissiveColor 0 0 0
+          specularColor 0 1 0
+        }
+        texture ImageTexture {
+          url "../assets/metal_amassado.png"
+        }
+      }
+    }
+  ]
+}
+
+#Cilindro base2
+Transform {
+  translation 2.4 0 0
+  rotation 0 0 1 1.56
+  children [
+    Shape {
+      geometry Cylinder {
+        radius 1.15
+        height 2.4
+      }
+      appearance Appearance {
+        material Material {
+        diffuseColor 0.7 0.7 0.7
+        shininess 1
+        }
+        texture ImageTexture {
+          url "../assets/metal_oct.png"
+        }
+      }
+    }
+  ]
+}
+
+#Cilindro base3
+Transform {
+  translation 3.1 0 0
+  rotation 0 0 1 1.56
+  children [
+    Shape {
+      geometry Cylinder {
+        radius 1.2
+        height 2
+      }
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.7 0.7 0.7
+          shininess 1
+        }
+        texture ImageTexture {
+          url "../assets/metal_liso.png"
+        }
+      }
+    }
+  ]
+}
+
+#orifício
+Transform {
+  translation -3.475 0 0
+  rotation 0 0 1 1.57
+  children [
+    Shape {
+      geometry Cylinder {
+        radius 0.8
+        height 0.1
+      }
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+          shininess 1
+        }
+        texture ImageTexture {
+          url "../assets/metal_liso.png"
+        }
+      }
+    }
+  ]
+}
