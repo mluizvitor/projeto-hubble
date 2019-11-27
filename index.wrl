@@ -24,6 +24,9 @@ Transform {
           emissiveColor 0 0 0
           # specularColor 0 1 0
         }
+        texture ImageTexture {
+          url "assets/metal_amassado.jpg"
+        }
       }
     }
   ]
@@ -44,6 +47,9 @@ Transform {
         diffuseColor 0.7 0.7 0.7
         shininess 1
         }
+        texture ImageTexture {
+          url "assets/metal_amassado.jpg"
+        }
       }
     }
   ]
@@ -63,6 +69,9 @@ Transform {
         material Material {
           diffuseColor 0.7 0.7 0.7
           shininess 1
+        }
+        texture ImageTexture {
+          url "assets/metal_liso.jpg"
         }
       }
     }
