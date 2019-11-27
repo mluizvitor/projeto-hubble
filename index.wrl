@@ -8,18 +8,18 @@ PointLight {
 
 #Cilindro base1
 Transform {
-  translation 0 0 0
+  translation -0.5 0 0
   rotation 0 0 1 1.56
   children [
     Shape {
       geometry Cylinder {
         radius 1
-        height 5
+        height 6
       }
 
       appearance Appearance {
         material Material {
-          diffuseColor 0.8 0.8 0.8
+          diffuseColor 0.7 0.7 0.7
           shininess 1
           emissiveColor 0 0 0
           # specularColor 0 1 0
@@ -31,17 +31,17 @@ Transform {
 
 #Cilindro base2
 Transform {
-  translation 2.1 0 0
+  translation 2.4 0 0
   rotation 0 0 1 1.56
   children [
     Shape {
       geometry Cylinder {
-        radius 1.1
-        height 0.8
+        radius 1.15
+        height 2.4
       }
       appearance Appearance {
         material Material {
-        diffuseColor 0.9 0.9 0.9
+        diffuseColor 0.7 0.7 0.7
         shininess 1
         }
       }
@@ -56,12 +56,12 @@ Transform {
   children [
     Shape {
       geometry Cylinder {
-        radius 1.2
-        height 1.7
+        radius 1.25
+        height 2
       }
       appearance Appearance {
         material Material {
-          diffuseColor 0.9 0.9 0.9
+          diffuseColor 0.7 0.7 0.7
           shininess 1
         }
       }
@@ -71,5 +71,13 @@ Transform {
 
 Inline {
   url "parts/hubble_bracos.wrl"
-  bboxSize 2 2 2
+  # bboxSize 2 2 2
+}
+
+Inline {
+  url "parts/hubble_tampa.wrl"
+}
+
+Inline {
+  url "parts/hubble_aros.wrl"
 }
