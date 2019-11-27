@@ -70,6 +70,6 @@ Transform {
 }
 
 Inline {
-  url "hubble_bracos.wrl"
+  url "parts/hubble_bracos.wrl"
   bboxSize 2 2 2
 }
